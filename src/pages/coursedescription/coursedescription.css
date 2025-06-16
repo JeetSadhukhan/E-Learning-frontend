@@ -1,0 +1,45 @@
+.course-description {
+  padding: 60px 20px;
+  background-color: #f5f5f5;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .course-header {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+
+    .course-image {
+      width: 100%;
+      max-width: 350px;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .course-info h2 {
+      font-size: 24px;
+      color: #6a1b9a;
+      margin-bottom: 10px;
+    }
+
+    .course-info p {
+      font-size: 14px;
+      color: #666;
+      margin: 15px;
+    }
+
+    .course-price {
+      font-size: 16px;
+      color: #333;
+      text-align: center;
+      max-width: 200px;
+      margin: 0 auto;
+    }
+  }
+}

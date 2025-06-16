@@ -1,0 +1,104 @@
+.admin-courses{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 40px;
+
+
+    .left{
+        .course-form{
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+
+            @media (max-width: 500px){
+                width: 250px;
+            }
+            @media (max-width: 390px){
+                width: 220px;
+            }
+
+            h2{
+                font-size: 24px;
+                color: #8a4baf;
+                margin-bottom: 15px;
+            }
+            form{
+                text-align: left;
+
+                label{
+                    display: block;
+                    margin-bottom: 5px;
+                    font-size: 15px;
+                    color: #333;
+                }
+                input,select{
+                    width: 92%;
+                    padding: 10px;
+                    margin-bottom: 15px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+
+                    @media (max-width: 500px){
+                        width: 88%;
+                    }
+
+                    @media (max-width: 390px){
+                        width: 86%;
+                    }
+                }
+            }
+        }
+        .common-btn1{
+            background-color: #5E548E;
+            color:white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+            margin-left: 120px;
+        
+        
+            &:hover{
+                background-color: #aa85af;
+            }
+        
+            @media (max-width: 768px){
+               font-size: 16px;
+            }
+
+            @media (max-width: 500px){
+                margin-left: 90px;
+            }
+
+            @media (max-width: 390px){
+                margin-left: 81px;
+            }
+        
+        }
+    }
+
+    .right{
+        .dashboard-content{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 40px;
+            margin-left: 5px;
+            margin-bottom: 50px;
+            row-gap: 40px;
+            column-gap: 50px;
+
+            @media (max-width: 660px){
+                justify-content: space-around;
+                margin-left: 0px;
+            }
+        }
+    }
+}
