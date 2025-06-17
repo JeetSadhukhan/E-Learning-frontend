@@ -94,4 +94,10 @@ footer {
         }
     }
 
+    @media (max-width: 768px) {
+      footer {
+        height: 80px;
+      }
+    }
+
 }
