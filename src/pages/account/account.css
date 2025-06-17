@@ -1,14 +1,14 @@
 .profile {
     background-color: white;
-    padding: 20px;
+    padding: 48px;
     border-radius: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    width: 30%;
-    margin: 185px auto;
+    width: 43%;
+    margin: 76px auto;
   
     @media (max-width: 768px) {
-      padding: 25px;
-      width: 80%;
+      padding: 30px;
+      width: 65%;
       margin: 90px auto;
 
     }
