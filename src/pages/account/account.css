@@ -9,25 +9,25 @@
   @media (max-width: 1950px) {
     padding: 68px;
     width: 41%;
-    margin: 166px auto;
+    margin: 173px auto;
   }
 
   @media (max-width: 1500px) {
     padding: 48px;
     width: 43%;
-    margin: 76px auto;
+    margin: 96px auto;
   }
 
   @media (max-width: 768px) {
     padding: 35px;
     width: 65%;
-    margin: 105px auto;
+    margin: 107px auto;
   }
 
   @media (max-width: 510px) {
     padding: 50px;
     width: 61%;
-    margin: 73px auto;
+    margin: 92px auto;
   }
 
   .profile-info {
